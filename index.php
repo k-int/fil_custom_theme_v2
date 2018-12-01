@@ -2,10 +2,13 @@
 
 <?php 
 // Restrict posts on the index page to those in category home-page and to 10 postspodcast
+// 'category_name' =>    'home-page',                    
+// 'cat' => '-2'
 $args = array( 'post_type' =>   'post',                        
-               'category_name' =>    'home-page',                    
                'posts_per_page' =>  10, 
-               'paged' =>  $paged   );
+	       'paged' =>  $paged,
+	       'category_name' => 'home-page'
+       );
 query_posts( $args );
 ?>
 

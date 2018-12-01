@@ -75,7 +75,6 @@
 					<div class="sideBarLeft">
 						<div class="nav">
 							<div class="bFrameT"><i></i></div>
-								<?php wp_nav_menu( array( 'fallback_cb' => 'baza_noclegowa_page_menu', 'menu'  => 'primary', 'depth' => 2, 'theme_location' => 'primary', 'before' => '<span>', 'after' => '</span>') ); ?>
 								<?php dynamic_sidebar ('left-column');?>
 							<div class="bFrameB"><i></i></div>
 						</div>
