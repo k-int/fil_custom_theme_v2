@@ -1,0 +1,16 @@
+#header .top-menu .textwidget
+{
+	margin-top: 2px;
+}
+
+.description
+{
+	float: left;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.searchBox
+{
+	clear: none !important;
+}

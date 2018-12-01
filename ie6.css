@@ -1,0 +1,27 @@
+#header .top-menu .textwidget
+{
+display: inline-block;
+float: right;
+}
+
+#header .top-menu .fontBox
+{
+float: right;
+display: inline-block;
+width: 50px;
+}
+
+.searchForm input.field
+{
+background-image: url(/wp-content/themes/fil_custom/images/searchBox.gif);
+}
+
+.outerFrame
+{
+	background-image:url(/wp-content/plugins/rotating-image-widget/images/frame.gif) !important;
+}
+
+.sideBar .nav li a, .sideBarLeft .nav li a { height: 24px; }
+.sideBar {padding-bottom: 0px;}
+.sideBar .nav .bFrameB {margin-top: 0px !important;}
+.sideBar .nav .bFrameB, .sideBarLeft .nav .bFrameB {margin-top:0px;}

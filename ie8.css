@@ -1,0 +1,10 @@
+.midContainer
+{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=6, Direction=135, Color='#CCCCCC')";
+	/*FILTER: "progid:DXImageTransform.Microsoft.Shadow(Strength=6, Direction=135, Color='#CCCCCC')";*/
+}
+
+#riw_images DIV.active
+{
+	filter:alpha(opacity=100);
+}
