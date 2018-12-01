@@ -1237,11 +1237,8 @@ p.nocomments {
 /*new style*/
 
 .entryContent {
-
-	font-size: 1.08em;
-
+    font-size: 1.08em;
     line-height: 1.35;
-
 }
 
 .post {margin-bottom: 15px; display: inline-block; border-bottom: 1px solid #CFE998; padding-bottom: 5px;}
@@ -1880,7 +1877,7 @@ sub {
 
 
 
-.content .post p, .content .post h3 { clear: none; float: right; width: 380px; margin: 0px; }
+.content .post p, .content .post h3 { clear: none; width: 380px; margin: 0px; }
 
 .single-post .content .post p, .single-post .content .post h3 { width: 100%; }
 

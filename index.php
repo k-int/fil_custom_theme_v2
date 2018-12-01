@@ -27,7 +27,7 @@ query_posts( $args );
             <!-- <p class="postmeta">Posted on <a href="<?php the_permalink() ?>"><?php the_time( get_option( 'date_format' ) ) ?></a> by <?php the_author() ?></p>-->
             <div class="entryContent">
                 <?php the_post_thumbnail(); ?>
-              <?php the_excerpt(); ?>
+                <?php the_content();  ?>
             </div>
             <!--<p>Posted in <?php the_category(', ') ?><?php the_tags( ' | Tags: ', ', ', ''); ?> | <?php edit_post_link('Edit', '', ' | '); ?> <?php comments_popup_link('No Comments', '1 Comment', '% Comments'); ?> </p>-->
           </div>
